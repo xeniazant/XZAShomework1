@@ -1,0 +1,54 @@
+/*© Xenia Zantello 2016->*/
+html{
+    
+}
+#education{
+    margin-left: 2.2em;
+}
+#makeRed ul li{
+    color: red;
+}
+#makeRed ul li:nth-child(2){
+    display: none;
+}
+.dateFloat{
+   float: right;
+}
+.dateFix{
+    display: none;
+}
+.dateHider{
+    color: red;
+    float: right;
+}
+.work ul li:nth-child(2){
+    display: none;
+}
+
+.clearBullet{
+    list-style: none;
+    text-align: left;
+}
+.bullIdt{
+    margin-left: 2em;
+}
+h1{
+    margin: auto;
+    padding-top: 1em;
+    width: 300px;
+}
+h2{
+    margin-left: 1.5em;
+    text-decoration: underline;  
+}
+.contact li{
+    display: inline;
+    flex-flow: row wrap ;  
+}
+.contact{
+    margin: auto;
+    max-width: 589px;
+    padding-left: 0;
+    padding-right: 0; 
+    width: 62%;
+}

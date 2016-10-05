@@ -1,0 +1,153 @@
+/*© Xenia Zantello 2016->*/
+*{
+    font: Arial;
+    
+}
+html{
+    background-image: url("images/bats.gif");
+    
+}
+header{
+    
+    border-bottom: 2px solid black;
+    background-color: orange;
+    background: -webkit-linear-gradient(25deg, white, orange, black);
+}
+
+body{
+  background-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black ;
+  -webkit-box-shadow: 10px 10px 8px 10px black;
+  margin: auto;
+  width: 800px; 
+}
+
+footer{
+    border-top: 2px solid black;
+    background-color: orange;
+    background: -webkit-linear-gradient(25deg, black , orange, white);
+    height: 40px;
+    line-height: 40px;
+    
+}
+
+.bigboi{
+    text-indent: 20px;
+    margin: 0;
+   
+    
+}
+
+.leftList{
+    float: left;
+    height: 900px;
+    padding-right: 20px;
+    margin-right: 0;
+}
+.h1{
+    font-size: 200%;
+    margin: 0;
+    padding-top: 0;
+    
+}
+
+.h2{
+    font-size: 150%;
+}
+
+.welcome::first-letter{
+    font-size: 300% ;
+    
+}
+
+.pumpkin{
+    float: left;
+}
+
+.goblin{
+    text-indent: 20px;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.copyright{
+    text-align: center;
+    font-size: 50%;
+    margin: 0;
+}
+#sidebar{
+    list-style: none;
+    float: left;
+    padding-top: 10px;
+    
+    
+}
+#sidebar li a{
+    
+    display: block;
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    padding-top: 0;
+    padding-left: 0;
+    text-decoration: none;
+    line-height: 30px;
+}
+#sidebar li{
+    border: 4px solid black;
+    margin-top: 4px;
+
+}
+#topNav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+#topNav li:nth-child(n+2) a{
+    display: block;
+    width: 155px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding-top: 0;
+    padding-left: 0;
+    text-decoration: none; 
+    float: left;
+    line-height: 30px;
+}
+#topNav li:first-child a{
+    display: block;
+    width: 155px;
+    height: 30px;
+    background-color: black;
+    color: orange;
+    padding-top: 0;
+    padding-left: 0;
+    text-decoration: none; 
+    float: left;
+    line-height: 30px;
+}
+#topNav li a:hover{
+    background-color: orange;
+}
+#mainContainer{
+    float: left;
+    height: 500px;
+}
+p {
+    padding-right: 10px
+}
+#bottomFix{
+    margin-left: 200px;
+}
+
